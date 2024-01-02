@@ -4,6 +4,7 @@ import { UseImperativeHandlePlayer } from './raect-basics/useImperativeHandle/us
 import { CreatePortalNode } from './raect-basics/createPortal/portalNode';
 import { CreatePortalModal } from './raect-basics/createPortal/portalModal';
 import { UseEffectAssyncCounter, UseEffectRefCounter } from './raect-basics/useEffect/useEffectAssyncCounter';
+import { UseDebugValue } from './raect-basics/useDebugValue/useDebugValue';
 
 function App(): JSX.Element {
   return (
@@ -16,6 +17,7 @@ function App(): JSX.Element {
       <CreatePortalModal />
       <UseEffectAssyncCounter />
       <UseEffectRefCounter />
+      <UseDebugValue />
     </>
   )
 }
