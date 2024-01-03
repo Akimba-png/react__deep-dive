@@ -5,6 +5,8 @@ import { CreatePortalNode } from './raect-basics/createPortal/portalNode';
 import { CreatePortalModal } from './raect-basics/createPortal/portalModal';
 import { UseEffectAssyncCounter, UseEffectRefCounter } from './raect-basics/useEffect/useEffectAssyncCounter';
 import { UseDebugValue } from './raect-basics/useDebugValue/useDebugValue';
+import { UseSyncExternalStoreStoreExample } from './raect-basics/useSyncExternalStore/useSyncExternalStoreStoreExm';
+import { UseSyncExternalStoreWindowApi } from './raect-basics/useSyncExternalStore/useSyncExternalStoreWindowExm';
 
 function App(): JSX.Element {
   return (
@@ -18,6 +20,8 @@ function App(): JSX.Element {
       <UseEffectAssyncCounter />
       <UseEffectRefCounter />
       <UseDebugValue />
+      <UseSyncExternalStoreStoreExample />
+      <UseSyncExternalStoreWindowApi />
     </>
   )
 }
