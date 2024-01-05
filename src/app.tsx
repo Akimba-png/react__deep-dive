@@ -7,6 +7,7 @@ import { UseEffectAssyncCounter, UseEffectRefCounter } from './raect-basics/useE
 import { UseDebugValue } from './raect-basics/useDebugValue/useDebugValue';
 import { UseSyncExternalStoreStoreExample } from './raect-basics/useSyncExternalStore/useSyncExternalStoreStoreExm';
 import { UseSyncExternalStoreWindowApi } from './raect-basics/useSyncExternalStore/useSyncExternalStoreWindowExm';
+import { UseState } from './raect-basics/useState/useState';
 
 function App(): JSX.Element {
   return (
@@ -22,6 +23,7 @@ function App(): JSX.Element {
       <UseDebugValue />
       <UseSyncExternalStoreStoreExample />
       <UseSyncExternalStoreWindowApi />
+      <UseState />
     </>
   )
 }
